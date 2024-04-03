@@ -48,8 +48,9 @@ projet-hate-speech/
 ### Bonnes Pratiques
 
 - **Nommez clairement** les fichiers et dossiers pour refléter leur contenu ou fonction.
-- **Versionnez les données** si possible, surtout dans les cas où elles sont sujettes à des changements ou des mises à jour fréquentes.
-- **Incluez un `.gitignore`** pour exclure les fichiers non nécessaires ou sensibles (comme les données volumineuses, les fichiers temporaires, les environnements virtuels).
 - **Documentez** le but et l'utilisation de chaque script et notebook pour faciliter la compréhension et la maintenance par d'autres développeurs.
 
-Cette structure de projet est suffisamment flexible pour être adaptée à la plupart des projets de deep learning et aide à maintenir le code organisé et accessible.
+
+### Variable d'environnement
+
+#### Setup de twitter
