@@ -11,7 +11,7 @@ cd deepwoke
 ```
 2. Installer les dépendances
 ```shell
-poetry install
+poetry install --no-root
 ```
 
 ### Structure de Répertoire de Haut Niveau
