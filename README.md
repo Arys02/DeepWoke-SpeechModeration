@@ -1,3 +1,19 @@
+### Prérequis
+
+* Poetry ([Installation](https://python-poetry.org/docs))
+
+### Installation
+
+1. Cloner le repo
+```shell
+git clone git@github.com:Arys02/DeepWoke-SpeechModeration.git deepwoke
+cd deepwoke
+```
+2. Installer les dépendances
+```shell
+poetry install
+```
+
 ### Structure de Répertoire de Haut Niveau
 
 ```
