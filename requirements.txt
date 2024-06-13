@@ -7,7 +7,5 @@ websockets
 pandas
 numpy
 keras-core
-tensorflow
-tensorboard
 fasttext
 scikit-learn
