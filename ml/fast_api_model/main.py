@@ -8,6 +8,8 @@ from pydantic import BaseModel
 from ml.fast_api_model.dependencies import predict_class
 
 
+
+
 class PredictionRequest(BaseModel):
     text: str
 
@@ -17,11 +19,19 @@ app = FastAPI()
 # with open('models/trained_model.pkl', 'rb') as f:
 # model = pickle.load(f)
 
+import os
+from pathlib import Path
 
-ft = fasttext.load_model('../ml_core/data/embedding_data/cc.fr.300.bin')
+file_path = Path(__file__).resolve().parent.parent / "ml_core" / "data" / "embedding_data" / "cc.fr.300.bin"
+if not file_path.exists():
+    raise ValueError(f"{file_path} cannot be opened for loading!")
 
+print(file_path.absolute())
 
-@app.post("/classify_o/")
+#ft = fasttext.load_model('../ml_core/data/embedding_data/cc.fr.300.bin')
+ft = fasttext.load_model(file_path.as_posix())
+
+@app.post("/classify/")
 async def classify(request: PredictionRequest):
     print(request.text)
 
