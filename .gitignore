@@ -200,7 +200,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-ml_core/docs/_build/
+ml/ml_core/docs/_build/
 
 # PyBuilder
 .pybuilder/
@@ -248,7 +248,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-ml_core/.env
+ml/ml_core/.env
 .venv
 env/
 venv/
@@ -299,7 +299,7 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,python,jupyternotebooks
 
-ml_core/tmp
-ml_core/data/embedding_data/
-ml_core/log/
+ml/ml_core/tmp
+ml/ml_core/data/embedding_data/
+ml/ml_core/log/
 build/
