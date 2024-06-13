@@ -1,6 +1,6 @@
 from httpx import AsyncClient, ASGITransport
 import pytest
-from src.api.main import app  # Adjust the import according to your project structure
+from fast_api_model.main import app  # Adjust the import according to your project structure
 
 
 @pytest.mark.asyncio

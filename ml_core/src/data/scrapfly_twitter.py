@@ -51,7 +51,7 @@ def scrape_tweet_playwright(url: str) -> tuple[Any, Any]:
 
 if __name__ == "__main__":
 
-    folder_path = '../../data/corpus_for_sexism_french/'
+    folder_path = '../../data/raw/corpus_for_sexism_french/'
 
     df = pd.read_csv(f'{folder_path}corpus_with_link.csv')
 
