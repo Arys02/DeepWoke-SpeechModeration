@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+gunicorn
+uvloop
+httptools
+websockets
+pandas
+numpy
+keras-core
+tensorflow
+tensorboard
+fasttext
+scikit-learn
+freeze
