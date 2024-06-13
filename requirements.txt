@@ -4,8 +4,7 @@ gunicorn
 uvloop
 httptools
 websockets
-pandas
 numpy
 keras-core
+tensorflow
 fasttext
-scikit-learn
