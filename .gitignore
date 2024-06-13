@@ -299,7 +299,15 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,python,jupyternotebooks
 
+
 ml/ml_core/tmp
 ml/ml_core/data/embedding_data/
 ml/ml_core/log/
 build/
+
+
+tmp
+embedding/embedding_data/
+log/
+
+.idea
