@@ -31,6 +31,11 @@ print(file_path.absolute())
 #ft = fasttext.load_model('../ml_core/data/embedding_data/cc.fr.300.bin')
 ft = fasttext.load_model(file_path.as_posix())
 
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
 @app.post("/classify/")
 async def classify(request: PredictionRequest):
     print(request.text)
