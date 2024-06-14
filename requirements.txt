@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+gunicorn
+uvloop
+httptools
+websockets
+numpy
+keras-core
+tensorflow
+fasttext
