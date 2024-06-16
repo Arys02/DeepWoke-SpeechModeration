@@ -309,5 +309,6 @@ build/
 tmp
 embedding/embedding_data/
 log/
+.env
 
 .idea
