@@ -21,6 +21,8 @@ projet-hate-speech/
 ├── data/
 ├── models/
 ├── notebooks/
+├── embedded_vector/
+├── model_weights/
 ├── src/
 ├── tests/
 ├── docs/
