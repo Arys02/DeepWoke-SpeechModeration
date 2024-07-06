@@ -1,1 +1,0 @@
-https://github.com/HKUST-KnowComp/MLMA_hate_speech/blob/master/keywords.txt
