@@ -9,6 +9,8 @@ def mlp_builder(input_dim, output_dim):
         loss = 'binary_crossentropy'
     print(input_dim, output_dim)
 
+    input_dim = input_dim[1]
+
     input_tensor = keras.layers.Input(shape=(input_dim,))
     hl = keras.layers.Dense(128, activation='relu')(input_tensor)
     hl = keras.layers.Dropout(0.1)(hl)
