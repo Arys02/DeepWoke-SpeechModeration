@@ -52,8 +52,6 @@ def send_to_websocket(message):
         print(f"Failed to send message: {e}")
         connect_to_websocket()
 
-
-
 from dotenv import load_dotenv, dotenv_values
 
 # loading variables from .env file
@@ -85,3 +83,4 @@ async def on_message(message):
 
 client.run(token)
 # %%
+
