@@ -10,8 +10,6 @@ import time
 # bot_url = "ws://localhost:3001"
 bot_url = "ws://localhost:3001"
 
-ws = None
-
 def connect_to_websocket():
     global ws
     try:
@@ -40,13 +38,13 @@ def on_close(ws, close_status_code, close_msg):
     time.sleep(5)
     connect_to_websocket()
 
-def send_to_model_api(message):
+def send_to_websocket(message):
     message_data = {
         "type": "inbound",
         "id": str(message.id),
-        "text": message.content,
+        "text": str(message.content),
         "user": str(message.author),
-        "is_hateful": None
+        "is_hateful": 0
     }
     try:
         ws.send(json.dumps(message_data))
@@ -83,7 +81,7 @@ async def on_message(message):
         return
     print(message.author)
     print(message.content)
-    send_to_model_api(message)
+    send_to_websocket(message)
 
 client.run(token)
 # %%
