@@ -304,7 +304,12 @@ pyrightconfig.json
 ml/ml_core/tmp
 ml/ml_core/data/embedding_data/
 ml/ml_core/log/
+*.keras
+*.npy
 build/
+
+ml/ml_core/model_weights
+ml/ml_core/embedded_vector
 
 
 tmp
@@ -313,3 +318,40 @@ log/
 .env
 
 .idea
+ml/ml_core/model_weights/deepwoke_bert_bilstm_corrected_format_all_data.csv_20240714-174533-model.keras
+ml/ml_core/model_weights/deepwoke_bert_convnet_corrected_format_all_data.csv_20240714-155012-model.keras
+ml/ml_core/model_weights/deepwoke_bert_convnet_fr_hf.csv_20240714-160352-model.keras
+ml/ml_core/model_weights/deepwoke_bert_lstm_corrected_format_all_data.csv_20240714-170747-model.keras
+ml/ml_core/model_weights/deepwoke_bert_mlp_corrected_format_all_data.csv_20240714-140736-model.keras
+ml/ml_core/model_weights/deepwoke_bert_mlp_fr_hf.csv_20240714-141003-model.keras
+ml/ml_core/model_weights/deepwoke_bert_rnn_corrected_format_all_data.csv_20240714-164527-model.keras
+ml/ml_core/model_weights/deepwoke_bert_rnn_fr_hf.csv_20240714-164736-model.keras
+ml/ml_core/model_weights/deepwoke_camembert_bilstm_corrected_format_all_data.csv_20240714-172356-model.keras
+ml/ml_core/model_weights/deepwoke_camembert_convnet_corrected_format_all_data.csv_20240714-153550-model.keras
+ml/ml_core/model_weights/deepwoke_camembert_convnet_corrected_format_all_data.csv_20240714-154636-model.keras
+ml/ml_core/model_weights/deepwoke_camembert_lstm_corrected_format_all_data.csv_20240714-170411-model.keras
+ml/ml_core/model_weights/deepwoke_camembert_mlp_corrected_format_all_data.csv_20240714-135702-model.keras
+ml/ml_core/model_weights/deepwoke_camembert_rnn_corrected_format_all_data.csv_20240714-164053-model.keras
+ml/ml_core/model_weights/deepwoke_camembert_rnn_fr_hf.csv_20240714-163628-model.keras
+ml/ml_core/model_weights/deepwoke_electra_bilstm_corrected_format_all_data.csv_20240714-191830-model.keras
+ml/ml_core/model_weights/deepwoke_electra_convnet_corrected_format_all_data.csv_20240714-161505-model.keras
+ml/ml_core/model_weights/deepwoke_electra_convnet_fr_hf.csv_20240714-161821-model.keras
+ml/ml_core/model_weights/deepwoke_electra_lstm_corrected_format_all_data.csv_20240714-171437-model.keras
+ml/ml_core/model_weights/deepwoke_electra_mlp_corrected_format_all_data.csv_20240714-141621-model.keras
+ml/ml_core/model_weights/deepwoke_electra_mlp_fr_hf.csv_20240714-141729-model.keras
+ml/ml_core/model_weights/deepwoke_electra_rnn_corrected_format_all_data.csv_20240714-165915-model.keras
+ml/ml_core/model_weights/deepwoke_fasttext_bilstm_corrected_format_all_data.csv_20240714-200022-model.keras
+ml/ml_core/model_weights/deepwoke_fasttext_convnet_fr_hf.csv_20240714-162910-model.keras
+ml/ml_core/model_weights/deepwoke_fasttext_convnet_fr_hf.csv_20240715-115520-model.keras
+ml/ml_core/model_weights/deepwoke_fasttext_lstm_corrected_format_all_data.csv_20240715-115022-model.keras
+ml/ml_core/model_weights/deepwoke_fasttext_mlp_corrected_format_all_data.csv_20240714-142037-model.keras
+ml/ml_core/model_weights/deepwoke_fasttext_mlp_fr_hf.csv_20240714-141918-model.keras
+ml/ml_core/model_weights/deepwoke_fasttext_rnn_corrected_format_all_data.csv_20240715-105210-model.keras
+ml/ml_core/model_weights/deepwoke_small-bert_bilstm_corrected_format_all_data.csv_20240714-182052-model.keras
+ml/ml_core/model_weights/deepwoke_small-bert_convnet_corrected_format_all_data.csv_20240714-161141-model.keras
+ml/ml_core/model_weights/deepwoke_small-bert_convnet_fr_hf.csv_20240714-160635-model.keras
+ml/ml_core/model_weights/deepwoke_small-bert_lstm_corrected_format_all_data.csv_20240714-171204-model.keras
+ml/ml_core/model_weights/deepwoke_small-bert_mlp_corrected_format_all_data.csv_20240714-141328-model.keras
+ml/ml_core/model_weights/deepwoke_small-bert_mlp_fr_hf.csv_20240714-141143-model.keras
+ml/ml_core/model_weights/deepwoke_small-bert_rnn_corrected_format_all_data.csv_20240714-165331-model.keras
+*.keras
