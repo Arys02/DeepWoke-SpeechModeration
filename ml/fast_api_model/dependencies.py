@@ -4,7 +4,8 @@ folder_model = "../ml_core/model_weights/"
 
 from pathlib import Path
 
-file_path_model = Path(__file__).resolve().parent.parent / "ml_core" / "model_weights" / "fasttext_nlp_20240613-131608-model.keras"
+model_name = "deepwoke_fasttext_nlp_all_data.csv_20240626-161852-model.keras"
+file_path_model = Path(__file__).resolve().parent.parent / "ml_core" / "model_weights" / model_name
 if not file_path_model.exists():
     raise ValueError(f"{file_path_model} cannot be opened for loading!")
 

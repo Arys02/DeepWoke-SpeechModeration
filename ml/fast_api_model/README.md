@@ -1,14 +1,5 @@
 # Installation
 
-## Windows WSL
-
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install nginx
-sudo service nginx start
-```
-
 ### configuration Nginx
 
 L'utilisation de Nginx sur WSL (Windows Subsystem for Linux) peut fonctionner correctement, mais il y a quelques points
