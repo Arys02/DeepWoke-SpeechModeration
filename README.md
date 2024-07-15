@@ -1,4 +1,4 @@
-### README for DeepWoke Project
+# DeepWoke
 
 ## Project Overview
 
