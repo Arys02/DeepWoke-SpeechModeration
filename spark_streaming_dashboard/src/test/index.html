@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Test</title>
+</head>
+<body>
+<h1>WebSocket Test</h1>
+<div id="status">Status: Disconnected</div>
+<div id="messages"></div>
+<script>
+    const statusElement = document.getElementById('status');
+    const messagesElement = document.getElementById('messages');
+
+    const socket = new WebSocket('ws://172.22.134.31:3001'); // Use the WSL IP address here
+
+    socket.onopen = function(event) {
+        statusElement.textContent = 'Status: Connected';
+        console.log('WebSocket connection opened');
+    };
+
+    socket.onmessage = function(event) {
+        const message = document.createElement('div');
+        message.textContent = 'Received: ' + event.data;
+        messagesElement.appendChild(message);
+        console.log('Received message:', event.data);
+    };
+
+    socket.onclose = function(event) {
+        statusElement.textContent = 'Status: Disconnected';
+        console.log('WebSocket connection closed', event);
+        console.log(event);
+    };
+
+    socket.onerror = function(event) {
+        statusElement.textContent = 'Status: Error';
+        console.error('WebSocket error observed:', event);
+    };
+</script>
+</body>
+</html>
